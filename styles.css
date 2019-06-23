@@ -5,22 +5,23 @@ html {
 }
 
 body {
-    max-width: 100px;
+    max-width: 1000px;
     margin: 50px auto;
     background-color: beige; 
 }
 
 nav {
     display: inline-flex;
-    margin-left: -200px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 a {
     background-color: rgb(149, 199, 245);
-    width: 80px;
-    height: 40px;
+    width: 25%;
+    height: auto;
     padding: 10px;
-    margin: 10px 30px 10px 30px;
+    margin: 10px 5% 10px 5%;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -32,12 +33,9 @@ a {
     color: whitesmoke;
     padding: 20px;
     margin: 50px auto;
-    margin-left: -100px;
-    width: 250px;
+    margin-left: 37%;
+    width: 22%;
+    height: auto;
     font-size: 30px;
     text-align: center;
-}
-
-.results {
-
 }
